@@ -26,7 +26,7 @@ pipeline {
 
     post {
         failure {
-            mail to: 'your-email@example.com',
+            mail to: 'menna.medhathassan111@gmail.com',
                  subject: "FAILED: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                  body: """البيلد فشل ❌
 
