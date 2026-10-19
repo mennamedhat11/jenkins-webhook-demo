@@ -1,2 +1,5 @@
+#!/bin/bash
 echo "print from script"
-   exit 1
+
+# Uncomment to simulate a failing build
+# exit 1
